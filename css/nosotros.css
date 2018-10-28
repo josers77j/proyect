@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.main{
+  width: 100%;
+  max-width: 1360px;
+  text-align: center;
+  padding: 20px;
+  padding-top: 80px;
+  position: relative;
+  background-image: url(../img/3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1710px;
+  margin: auto;
+}
+@media(max-width:760px){
+    .main{
+  width: 100%;
+  max-width: 1260px;
+  text-align: center;
+  padding: 0px;
+  padding-top: 80px;
+  position: relative;
+  background-image: url(../img/2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 4000px;
+  margin: auto;
+    }
+}
+
+.main-tabla{
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  margin: auto;
+}
+
+.capa-black{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+}
+.capa{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.h1{
+    position: relative;
+    color: white;
+}
+
+.parrafo1{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    color: #c6c6c6;
+    font-weight: 100;
+}
+
+.container-testimonials{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.testimonial{
+    width: 340px;
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 5px black;
+
+}
+
+.testimonial-tabla{
+  width: 320px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.photo-perfil1,
+.photo-perfil2,
+.photo-perfil3,
+.photo-perfil4,
+.photo-perfil5,
+.photo-perfil6{
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    box-shadow: 0px 0px 30px -6px black;
+}
+
+.photo-perfil1{
+    background-image: url(../img/imgT/1.png);
+    background-position: center 1px;
+}
+
+.photo-perfil2{
+    background-image: url(../img/imgT/2.png);
+    background-size: 160px;
+    background-position: -10px 0px;
+}
+
+.photo-perfil3{
+    background-image: url(../img/imgT/3.jpg);
+    background-size: 150px;
+    background-position: -18px -10px;
+}
+
+.photo-perfil4{
+    background-image: url(../img/imgT/4.png);
+    background-size: 240px;
+    background-position: -48px -10px;
+}
+
+.photo-perfil5{
+    background-image: url(../img/imgT/5.png);
+    background-size: 190px;
+    background-position: -40px -20px;
+}
+
+.photo-perfil6{
+    background-image: url(../img/imgT/6.png);
+    background-size: 200px;
+    background-position: -42px 0px;
+}
+
+
+.testimonial h2{
+    margin-top: -40px;
+}
+
+.testimonial h4{
+    margin-top: 10px;
+    color:#333333;
+    font-weight: 400;
+}
+
+.testimonial p{
+    margin-top: 10px;
+    font-weight: 100;
+    color:#626567;
+    background-size: 5px;
+}
+
+.container-redes{
+    margin-top: 20px;
+}
+
+.container-redes label{
+    font-size: 40px;
+}
+
+.icon-facebook,
+.icon-twitter,
+.icon-instagram{
+  border-radius: 10px;
+  -webkit-transition: 500ms ease;
+  -o-transition: 500ms ease;
+  transition: 500ms ease;
+  cursor: pointer;
+}
+
+
+
+.icon-facebook{
+color: #1a5276 ;
+}
+
+.icon-twitter{
+  color:#5499c7;
+}
+.icon-instagram{
+  color:#aa1212;
+}
+
+.icon-facebook:hover{
+color: #154360;
+}
+.icon-twitter:hover{
+ color:#2980b9;
+}
+.icon-instagram:hover{
+color:#641e16;
+}
+
+
+hr{
+  max-width: 50px;
+  height: 0px;
+  margin-top: 10px;
+  border-style: 3px solid black;
+  border-color: #8c8b8b;
+  border-width: 4px 0 0 0;
+  border-radius:0px;
+  margin-left: 640px;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+  background: #141414;
+  color: #b7b7b7;
+  padding: 15px;
+  margin-bottom: -60px;
+  text-align: center;
+}
+
+@media screen and(max-width:600px){
+  .column{
+    width: 100%;
+  }
+
+}

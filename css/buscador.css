@@ -1,0 +1,174 @@
+main{
+    position: relative;
+    top: 0px;
+}
+.content-one{
+    width: 100%;
+}
+.content-portada{
+    width: 100%;
+    height: 652px;
+    background-image: url(../img/imgB/4.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 1 -400px;
+}
+
+.content-item1{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+
+
+.content-item1 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.content-item1 h4{
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+}
+.content-item1 h3{
+    color: white;
+    font-size: 60px;
+}
+
+.content-item1 h2{
+    color: #fbfcfc ;
+    font-size: 60px;
+    font-weight: 100;
+}
+.content-item1 p{
+  color: #212529;
+}
+@media screen and (max-width:800px){
+    .content-item1{
+        width: 100%;
+    }
+}
+.content-for{
+    width: 100%;
+    background: #d7dbdd;
+}
+
+.content-item3{
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.content-item3 h4{
+    text-align: center;
+    font-size: 20px;
+}
+.content-item3 p{
+    text-align: center;
+    margin-top: 20px;
+    color: #7a7a7a;
+    font-weight: 500;
+}
+
+.content-item3 img{
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+}
+
+/*CONTENT FIVE*/
+
+
+.content-five{
+
+    width: 100%;
+    background:#d0d3d4;
+}
+
+.content-item4{
+    width: 90%;
+    max-width: 800px;
+    padding: 50px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.content-item4 h2{
+    font-size: 40px;
+    color: black;
+}
+
+.content-item4 p{
+    margin-top: 20px;
+}
+.content-six{
+  width: 100%;
+  background:  #212f3c;
+}
+.content{
+  width: 100%;
+  max-width: 1000px;
+  padding: 50px;
+  margin: auto;
+  color: white;
+
+}
+
+.video-responsive{
+  position: relative;
+  padding-bottom: 56.25%; /* 16/9 ratio*/
+  padding-top: 30px; /*IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+section{
+  width: 100%;
+  background: #212529;
+}
+.text-cat h2{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.content-B{
+
+    width: 100%;
+    background:#273746;
+}
+.content-itemB{
+    width: 90%;
+    max-width: 800px;
+    padding: 50px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.content-itemB h1{
+    font-size: 40px;
+    color: #b7b7b7;
+}
+
+.content-itemB p{
+    margin-top: 20px;
+}

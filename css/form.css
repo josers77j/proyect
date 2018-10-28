@@ -1,0 +1,138 @@
+.sidebar-contact{
+  position: fixed;
+  top: 50%;
+  left: -350px;
+  transform: translateY(-50%);
+  width: 350px;
+  height: auto;
+  padding: 40px;
+  background: #fff;
+  background: blur;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.sidebar-contact.blur{
+  filter: blur(5px);
+}
+
+.sidebar-contact.active{
+  left: 0;
+}
+.sidebar-contact textarea,
+.sidebar-contact input{
+  width: 100%;
+  height: 36px;
+  padding: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  transition: 4s ease;
+  border:none;
+  background: rgba(255,255,255,.5);
+  color:#000;
+
+  -webkit-transition: 300ms ease;
+  -o-transition: 300ms ease;
+  transition: 300ms ease;
+}
+
+.sidebar-contact input[type="Nombre"],
+.sidebar-contact input[type="Correo"]{
+  border-bottom: 1px solid #b7b7b7;
+}
+
+.sidebar-contact input[type="Nombre"]:focus,
+.sidebar-contact input[type="Correo"]:focus{
+    border-bottom: 2px solid #df6666;
+}
+
+.sidebar-contact input[placeholder="Nombre"]:focus,
+.sidebar-contact input[placeholder="Correo"]:focus{
+  background: #fff;
+  transform: translateY(-15%);
+}
+
+.sidebar-contact textarea{
+  border-bottom: 2px solid #b7b7b7;
+}
+
+.sidebar-contact textarea:focus{
+  transform: translateY(-5px);
+  border-bottom: 2px solid #df6666;
+  background: #fff;
+}
+
+
+.sidebar-contact input[type="submit"]{
+  background: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  font-style: 18px;
+  transition: 300ms ease;
+}
+
+.sidebar-contact textarea{
+  height: 60px;
+  resize: none;
+}
+.sidebar-contact h2{
+  margin: 0 0 20px;
+  padding: 0;
+  color: #212529;
+
+  }
+.toggle{
+  position: absolute;
+  width: 48px;
+  top: 0;
+  right: -48px;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  cursor: pointer;
+  background: #df6666;
+}
+.toggle:before
+{
+  content:'\f003';
+  font-family: fontAwesome;
+  color: #fff;
+  font-size: 18px;
+}
+.toggle.active:before
+{
+   content:  '\f00d';
+}
+
+input[type="submit"]:hover{
+  background: #df6666;
+}
+
+@media(max-width:768px)
+{
+  .sidebar-contact
+  {
+    width: 100%;
+    height: 70%;
+    left: -100%;
+  }
+  .sidebar-contact .toggle
+  {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: 0.5s;
+  }
+  .sidebar-contact.active .toggle
+  {
+    top: 0;
+    right: 0;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}

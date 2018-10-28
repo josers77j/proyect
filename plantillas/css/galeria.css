@@ -1,0 +1,15 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+.galeria {
+width: 100%;
+text-align: center;
+background:#212f3d;
+padding-bottom: 20px;
+}
+.galeria h1{
+padding-top: 20px;
+color: #fff;
+}
